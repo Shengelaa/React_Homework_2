@@ -5,9 +5,9 @@ import Ang from "../FooterAssets/Ang.png";
 import Reactimg from "../FooterAssets/React.png";
 import Vue from "../FooterAssets/Vue.png";
 
-const ScssFooter = () => {
+const ScssFooter = ({ isLight, setIsLight }) => {
   return (
-    <footer className={Style.myFooter}>
+    <footer className={isLight ? Style.myFooter : Style.myFooter1}>
       <div className={Style.Maindiv}>
         <section>
           <img src={js} alt='' />

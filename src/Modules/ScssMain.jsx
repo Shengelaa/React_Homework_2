@@ -3,9 +3,9 @@ import Style from "../Modules/ScssMain.module.scss";
 import img from "../Assets/Frame.png";
 import man from "../Assets/Man.png";
 
-const ScssMain = () => {
+const ScssMain = ({ isLight, setIsLight }) => {
   return (
-    <main className={Style.MyMain}>
+    <main className={isLight ? Style.MyMain : Style.MyMain1}>
       <div>
         <h1>Hi, I am</h1>
         <h1>Chukwukwe Chisom</h1>
