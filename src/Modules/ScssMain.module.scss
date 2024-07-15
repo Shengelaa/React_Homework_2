@@ -1,0 +1,64 @@
+.MyMain {
+  width: 100%;
+  height: 600px;
+  background-color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  div {
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+    h1 {
+      margin-top: -20px;
+      font-size: 53.15px;
+      color: white;
+      font-weight: 700;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    p {
+      color: #828282;
+      font-weight: 500;
+      font-size: 20px;
+      margin-top: -30px;
+    }
+
+    button {
+      width: 150px;
+      height: 48px;
+      border: 0px;
+      text-align: center;
+      border-radius: 5px;
+      background-color: #455174;
+      color: white;
+      font-weight: 500;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    img {
+      width: 252px;
+      height: 24px;
+      margin-top: 20px;
+    }
+  }
+  section {
+    margin-right: 180px;
+
+    width: 502px;
+    border-radius: 50%;
+    border: 2px solid #a6bcfa;
+
+    height: 502px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 368px;
+      height: 456px;
+      padding-left: 50px;
+    }
+  }
+}
